@@ -1,38 +1,546 @@
-.App {
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  background-color: #FFFFFF;
+  background-image: url('./images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+}
+
+.section1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section1 img {
+  width: 125px;
+  height: 125px;
+  margin-top: 120px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section1 h1 {
+  font-size: 46px;
+  color: #4C545C;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.section1 p {
+  font-size: 20px;
+  color: #9EABB2;
+  width: 730px;
+  margin: auto;
+}
+
+.download-btn {
+  width: 470px;
+  height: 56px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.download-ios,
+.download-mac {
+  width: 227px;
+  height: 56px;
+  color: #FFFFFF;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.download-ios {
+  background-color: #26BBA4;
+  box-shadow: 3px 3px #179683;
+}
+
+.download-ios:hover {
+  background-color: color-mix(in oklab, #26BBA4, #FFFFFF 25.35% );
+}
+
+.download-mac {
+  background-color: #6174FF;
+  box-shadow: 3px 3px #4c5bce;
+}
+
+.download-mac:hover {
+  background-color: color-mix(in oklab, #6174FF, #FFFFFF 25.35%);
+}
+
+.section2{
+  margin-top: 150px;
+  text-align: center;
+}
+
+.section2 h2 {
+  font-size: 36px;
+  color: #4C545C;
+}
+
+.section2 p {
+  font-size: 18px;
+  color: #9EABB2;
+  width: 730px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.section3 {
+  display: flex;
+  margin-top: 70px;
+}
+
+.section3 img {
+  width: 752px;
+  height: 572px;
+  margin-left: -40px;
+}
+
+.features {
+  width: 350px;
+  height: 406px;
+  margin-left: 100px;
+}
+
+.features h3 {
+  font-size: 24px;
+  color: #4C545C;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.features p {
+  font-size: 16px;
+  color: #9EABB2;
+  margin-bottom: 56px;
+}
+
+.section4 {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.section4 h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #4C545C;
+}
+
+.section4 p {
+  width: 730px;
+  font-size: 18px;
+  color: #9EABB2;
+  margin: auto;
+}
+
+.section4 img {
+  margin-top: 100px;
+  width: 812px;
+  height: 475px;
+}
+
+.section5 {
+  text-align: center;
+}
+
+.section5 h3 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #4C545C;
+}
+
+.section5 p {
+  font-size: 18px;
+  color: #9EABB2;
+}
+
+.tools {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 80px;
+  width: 1110px;
+  height: 216px;
+}
+
+.blacklists {
+  width: 350px;
+  height: 216px;
+}
+
+.text-snippet {
+  width: 350px;
+  height: 182px;
+}
+
+.preview {
+  width: 350px;
+  height: 182px;
+}
+
+.tools h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #4C545C;
+}
+
+.tools p {
+  font-size: 16px;
+  color: #9EABB2;
+}
+
+.companies {
+  width: 1110px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto;
+  margin-top: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.google {
+  width: 165px;
+  height: 49px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.ibm {
+  width: 144px;
+  height: 72px;
+}
+
+.microsoft {
+  width: 160px;
+  height: 48px;
+}
+
+.hp {
+  width: 134.13px;
+  height: 56px;
+}
+
+.vector {
+  width: 125px;
+  height: 30px;
+}
+
+.section6 {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.section6 h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #4C545C;
+}
+
+.section6 p {
+  font-size: 18px;
+  color: #9EABB2;
+  width: 730px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.footer-container {
+  height: 150px;
+  background-color: #d9dfe2;
+}
+
+.footer {
+  display: flex;
+  margin-top: 150px;
+}
+
+.footer-logo {
+  width: 55px;
+  height: 55px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.quick-access {
+  display: flex;
+  margin-left: 150px;
+  font-size: 18px;
+  color: #4C545C;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.quick-access p:hover {
+  color: #26BBA4;
+}
+
+.access1,
+.access2 {
+  margin-right: 100px;
+}
+
+.socials {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 250px;
+  margin-top: 65px;
+}
+
+.socials img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.my-svg:hover {
+  filter: tint(#26BBA4);
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-image: url('./images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
   }
-  to {
-    transform: rotate(360deg);
+
+  .section1 img {
+    width: 125px;
+    height: 125px;
+    margin-top: 150px;
   }
+
+  .section1 h1 {
+    font-size: 32px;
+    font-weight: 600;
+    width: 311px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .section1 p {
+    font-size: 16px;
+    width: 311px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .download-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-top: 70px;
+  }
+
+  .download-ios,
+  .download-mac {
+    width: 311px;
+  }
+
+  .download-ios {
+    margin-bottom: 20px;
+  }
+
+  .section2 {
+    margin-top: 70px;
+  }
+
+  .section2 h1 {
+    font-size: 28px;
+    font-weight: 600;
+    width: 311px;
+  }
+
+  .section2 p {
+    font-size: 16px;
+    width: 311px;
+  }
+
+  .section3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section3 img {
+    width: 312px;
+    height: 238px;
+    margin: auto;
+  }
+
+  .features {
+    width: 312px;
+  }
+
+  .features h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50px;
+  }
+
+  .features p {
+    font-size: 16px;
+  }
+
+  .section4 h2 {
+    font-size: 28px;
+    font-weight: 600;
+    width: 311px;
+    margin: auto;
+  }
+
+  .section4 p {
+    font-size: 16px;
+    width: 311px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .section4 img {
+    width: 311px;
+    height: 182px;
+    margin: 50px;
+  }
+
+  .section5 {
+    width: 311px;
+    margin: auto;
+  }
+
+  .section5 h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: auto;
+  }
+
+  .section5 p {
+    font-size: 16px;
+  }
+
+  .tools {
+    height: 671px;
+    width: 311px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .tools h4 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .tools p {
+    font-size: 16px;
+  }
+
+  .blacklists img {
+    width: 44px;
+    height: 40px;
+  }
+
+  .text-snippet img {
+    width: 36px;
+    height: 32px;
+  }
+
+  .preview img {
+    width: 49.61px;
+    height: 31.89px;
+  }
+
+  .companies {
+    width: 139px;
+    height: 439px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .google,
+  .ibm,
+  .microsoft,
+  .hp,
+  .vector {
+    margin-bottom: 50px;
+  }
+
+  .google {
+    width: 139px;
+    height: 41px;
+  }
+
+  .ibm {
+    width: 121px;
+    height: 60px;
+  }
+
+  .microsoft {
+    width: 135px;
+    height: 40px;
+  }
+
+  .hp {
+    width: 113px;
+    height: 47px;
+  }
+
+  .vector {
+    width: 105px;
+    height: 25px;
+  }
+
+  .section6 h2 {
+    width: 311px;
+    font-size: 28px;
+    font-weight: 600;
+    margin: auto;
+  }
+
+  .section6 p {
+    width: 311px;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .section6 .download-btn {
+    margin-top: -20px;
+  }
+
+  .footer-container {
+    height: 530px;
+    background-color: #d9dfe2;
+  }
+
+  .footer {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    margin-left: 100px;
+  }
+
+  .quick-access {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .access1,
+  .access2 {
+    margin-left: 50px;
+  }
+
+  .access3 {
+    margin-left: -20px;
+  }
+
+  .socials {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+  }
+
 }
